@@ -1,0 +1,24 @@
+## .NET
+[Bb]in/
+[Oo]bj/
+.vs/
+*.user
+*.suo
+*.cache
+TestResults/
+artifacts/
+
+## IDE
+.idea/
+.vscode/
+
+## Secrets and local configuration
+.env
+.env.*
+!.env.example
+appsettings.Local.json
+secrets.json
+
+## OS
+.DS_Store
+Thumbs.db

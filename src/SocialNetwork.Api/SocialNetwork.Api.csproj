@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>SocialNetwork.Api</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" />
+    <ProjectReference Include="..\BuildingBlocks\SocialNetwork.BuildingBlocks\SocialNetwork.BuildingBlocks.csproj" />
+    <ProjectReference Include="..\Modules\SocialNetwork.Modules.Identity\SocialNetwork.Modules.Identity.csproj" />
+    <ProjectReference Include="..\Modules\SocialNetwork.Modules.Posts\SocialNetwork.Modules.Posts.csproj" />
+  </ItemGroup>
+</Project>
